@@ -2,6 +2,9 @@
 
 echo "Create .htaccess and .htpasswd for basic auth"
 
+# cloud9 doesn't have htpasswd command currently.
+sudo apt-get install apache2-utils --fix-missing
+
 BASE_PATH=`pwd`
 cat <<EOF > .htaccess
 AuthUserfile $BASE_PATH/.htpasswd
