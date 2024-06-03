@@ -1,3 +1,5 @@
+** THIS REPOSITORY WILL BE NO LONGER UPDATED. **
+
 # What's this?
 
 Easy to make Basic authentication on cloud9 IDE.
@@ -8,3 +10,6 @@ Easy to make Basic authentication on cloud9 IDE.
 1. Hit command at your terminal `wget https://raw.githubusercontent.com/kohki-shikata/c9-basic-auth/master/basic.sh`
 2. `sh basic.sh`
 1. Enter ID, password and retype password.
+
+# License
+MIT License
